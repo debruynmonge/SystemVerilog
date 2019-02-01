@@ -1,0 +1,17 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Engineer:  Jacobo De Bruyn Monge
+// 
+// Create Date: 01.02.2019 13:51:43
+// Module Name: ANDs
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module ANDs #(parameter k=1)(C,A,B);
+input [k-1:0] A,B;
+output [k-1:0] C;
+
+assign C= A & B;
+    
+    
+endmodule
